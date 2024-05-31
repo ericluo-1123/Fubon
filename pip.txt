@@ -1,0 +1,12 @@
+#下載新富邦01
+https://www.fbs.com.tw/Download/DownloadApp
+#API_DLL.exe位置
+C:\Fubon_e01_Plus\API3\API_DLL.exe
+#憑證位置
+C:\CAFubon\F126310472
+
+
+#系統管理員並切換到fubon_neo-1.0.2-cp37-abi3-win_amd64.whl這個檔案位置下
+pip install --force-reinstall --no-cache fubon_neo-1.0.2-cp37-abi3-win_amd64.whl --target=C:\Users\ericluo\AppData\Local\Programs\Python\Python311\Lib\site-packages
+pip install -U ipykernel --target=C:\Users\ericluo\AppData\Local\Programs\Python\Python311\Lib\site-packages
+pip install requests --target=C:\Users\ericluo\AppData\Local\Programs\Python\Python311\Lib\site-packages
